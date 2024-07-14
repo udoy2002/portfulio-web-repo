@@ -1,0 +1,42 @@
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/*common shared style*/
+body{
+    font-family:'Courier New', Courier, monospace
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+/*primary coloua*/
+
+.text{
+    color: rgb(246, 107, 14);
+ 
+}
+h3{
+    font-size: 45px;
+}
+
+nav,ul{
+    display: flex;
+}
+nav,li{
+    
+    list-style: none;
+  margin-right:50px;
+}
+nav>a{
+    text-decoration: none;
+    color:black;
+    
+}
+.button-color {background:rgb(255, 71, 4);
+    border: 0px;
+    color: white;
+    font-size: 20px;
+padding: 15px 35px;
+border-radius: 20px;
+font-weight: 700px;
+}
